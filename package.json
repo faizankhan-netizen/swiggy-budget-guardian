@@ -1,0 +1,15 @@
+{
+  "name": "swiggy-budget-guardian",
+  "version": "1.0.0",
+  "description": "Smart, Cost-Aware Ordering on Swiggy",
+  "main": "src/guardian_logic.py",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "latest"
+  },
+  "scripts": {
+    "render-charts": "mmdc -i docs/blueprint.md -o docs/architecture.png"
+  }
+}

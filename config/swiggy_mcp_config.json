@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "swiggy": {
+      "command": "npx",
+      "args": ["-y", "@swiggy/mcp-server"],
+      "env": {
+        "SWIGGY_API_KEY": "YOUR_API_KEY_HERE"
+      }
+    }
+  }
+}
